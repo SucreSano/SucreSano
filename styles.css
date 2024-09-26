@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+}
+
+.inicio, .ubicacion, .menu {
+    margin-top: 50px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #6bbf59;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6bbf59;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #4d9b41;
+}
+
+.menu-item {
+    margin: 20px;
+    font-size: 18px;
+}
