@@ -1,38 +1,78 @@
+/* Importa una fuente bonita desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2a2a2a; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
     margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.inicio, .ubicacion, .menu {
-    margin-top: 50px;
-}
-
-.logo {
-    width: 150px;
-    margin-bottom: 20px;
-}
-
+/* Encabezado y texto */
 h1, h2 {
-    color: #6bbf59;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #6bbf59;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    color: #6bbf59; /* Verde para los títulos */
+    font-weight: 600;
     margin-top: 20px;
 }
 
-.btn:hover {
-    background-color: #4d9b41;
+/* Estilos para la página de inicio (index.html) */
+.inicio {
+    background: linear-gradient(135deg, #2a2a2a, #3d3d3d);
+    padding: 60px 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu-item {
-    margin: 20px;
-    font-size: 18px;
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
 }
+
+/* Estilos para la página de ubicación (ubicacion.html) */
+.ubicacion {
+    background: linear-gradient(135deg, #2a2a2a, #3d3d3d);
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.ubicacion-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+/* Estilo de los ítems del menú */
+.menu-item {
+    margin: 20px 0;
+    font-size: 22px;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plato-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Estilo de los botones */
+.btn {
+    display: inline-block;
+    background-color: #6bbf59;
+    color: #fff;
+    padding: 25px 60px;
+    font-size: 28px; /* Bot

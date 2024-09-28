@@ -10,7 +10,6 @@ function getLocation() {
                 const lat = position.coords.latitude;
                 const lon = position.coords.longitude;
                 status.textContent = `Ubicación obtenida: (${lat}, ${lon})`;
-                // Puedes almacenar la ubicación si es necesario
                 // Redirigir al menú después de obtener la ubicación
                 setTimeout(() => {
                     window.location.href = 'menu.html';
@@ -44,4 +43,3 @@ if (document.getElementById('order-btn')) {
         }
     });
 }
-
